@@ -34,6 +34,7 @@ public class MathUtil {
         //nay cua tao dua them so am , tham so >20
         System.out.println("expected: IllegalArgumentException: " + MathUtility.getFractiorial(-5));
         
+        System.out.println("Chuc cuoi tuan thu 9 vui ve");
     }
 
 }
