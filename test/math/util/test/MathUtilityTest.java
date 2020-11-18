@@ -45,10 +45,11 @@ public class MathUtilityTest {
     public void getFractprial_RunsWell_IfValidArgument(){
         assertEquals(120, getFractiorial(5));
         assertEquals(24, getFractiorial(4));
-        assertEquals(720, getFractiorial(6));
-        assertEquals(0, getFractiorial(0));
+        assertEquals(720, getFractiorial    (6));
+        assertEquals(1, getFractiorial(0));
         //vietsub: hãy tính giùm tui 5! coi nó có là 120 hem?
         //có thì báo xanh , ko thì báo đỏ
     }
-    
+    // tui sửa lại code expected = 1 để có màu xanh local
+    //và tui cũng mún thấy màu xanh trên GIT tui đóng dấu
 }
