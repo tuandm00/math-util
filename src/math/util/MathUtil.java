@@ -38,3 +38,31 @@ public class MathUtil {
     }
 
 }
+// MINH MUN KET LUAN HAM NGON , MINH PHAI TEST CAC TRUONG HOP XAI HAM
+//TRUONG HOP 5! 0! -5! 21! 20!....
+//minh phai thiet ke cac test case , tinh huong test de sau do minh verify
+//giua gia tri tra ve cua ham (actual) co khop voi expected cai minh du doan
+//ham hcay phai tra ve
+//va neu moi thu khop,  tuc la actual == expected , mnh moi dam gay : HAM NGON
+//CACH NAY CO NHUOC DIEM : NHIN BANG MAT VA SO SANH KET QUA CUA TUNG CASE
+//                                                                   tinh huong test
+//Cash nay on , nhung tiem an sai sot do nhin = mat nhieu case 
+
+//CACH NANG CAO
+//CUNG NHIN = MAT, NHUNG CHI NHIN 2 MAU XANH - DO CHO MOI TEST CASES
+//co nghia la : neu ban xai ham  voi 100 tham so, chay 100 tinh huong khac nhau
+//XANH , CODE ON CHO MOI TEST CASE , MOI TINH HUONG GOI HAM
+//       MOI CASE PHAI CO EXPECTED = ACTUAL THI MOI XANH
+//DO , MOI CASE MAU XANH , CHI CO IT NHAT 1 THANG DO , KET LUAN CA DAM DO
+//      ham dung cho 99 truong hop, expected = actual cho 99% tinh huong
+//      chi co 1 tinh huong sai , ko khop , ket luan , ham ko on dinh
+//      ai dam xai khi ko on dinh , on dinh va chinh xac phai cho moi truong hop
+//CHI CAN IT NHAT 1 CAI KHONG ON , DO CA DAM DE DAM BAO RANG HAM PHAI CHINH XAC MOI
+//TINH HUONG
+
+//MUON LAM DC DIEU NAY , CAN SU PHU GIUP CUA CAC THU VIEN BEN NGAOI JDK , GOI LA
+//UNIT TEST FRAMEWORK
+//CAC BO UNIT TEST NOI TIENG: JUnit , TestNG , NUnit , xUnit , PHPUnit , ....
+//bua nay minh hoc xanh do qua JUnit
+//van voi muc tieu test ham co ngon ko , nhung chi nhin dung 2 mau , ko care chi
+//tiet cac tinh huong chay ham
