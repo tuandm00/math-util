@@ -24,21 +24,17 @@ public class MathUtility {
     //giai thua tang cuc nhanh , 21! long ko chua dc
     //bai nay minh se chan giai thua tu 0..20
     //am hoac 21 chui , ko them tinh
-    public static long getFractiorial(int n) {
-        if (n < 0 || n > 20)
-            throw new IllegalArgumentException("n must be between 0 ..20");// ngoai le khi dua tham so vao qua vo van
+//    
+    // viết hàm đệ quy
+    public static long getFractorial(int n) {
+        if (n < 0 || n > 20) 
+            throw new IllegalArgumentException("n must be between 0..20");
         
-        if (n == 0 || n == 1) 
-            return 1;//dac biet , return luon   
+        if (n == 0 | n == 1) 
+            return 1; //đk dừng
         
-        //dua nao biet else o day, tru diem
-        //mac nhien CPU den dc day la hieu rang n = 2...20
-        long result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
+        return n * getFractorial(n - 1);//đệ quy đó em
+        //gọi lại chính hàm của mình với quy mô khác , n -1
     }
-
-
+    //5! = 5 * 4!; 4! = 4 *3!; 
 }
