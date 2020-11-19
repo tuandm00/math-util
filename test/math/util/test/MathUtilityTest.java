@@ -42,11 +42,11 @@ public class MathUtilityTest {
     //assert...() đủ các loại assert trên cuộc đời - assert (v) so sánh
     //thay vì so sánh = mắt , ta nhờ hàm so sánh giùm , thảy về màu giùm ta
     
-    public void getFractprial_RunsWell_IfValidArgument(){
-        assertEquals(120, getFractiorial(5));
-        assertEquals(24, getFractiorial(4));
-        assertEquals(720, getFractiorial    (6));
-        assertEquals(1, getFractiorial(0));
+    public  void getFractprial_RunsWell_IfValidArgument(){
+        assertEquals(120, getFractorial(5));
+        assertEquals(24, getFractorial(4));
+        assertEquals(720, getFractorial(6));
+        assertEquals(1, getFractorial(0));
         //vietsub: hãy tính giùm tui 5! coi nó có là 120 hem?
         //có thì báo xanh , ko thì báo đỏ
     }

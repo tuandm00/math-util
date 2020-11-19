@@ -18,7 +18,7 @@ public class MathUtil {
      */
     public static void main(String[] args) {
         long expected = 120;// to hy vong thay 120 neu to goi 5!
-        long actual = MathUtility.getFractiorial(5);
+        long actual = MathUtility.getFractorial(5);
         //in ra de kiem tra su khop nhau giua cai ta muon va cai ta lam
         System.out.println("5! expected: " + expected);
         System.out.println("5! actual: " + actual);
@@ -27,12 +27,12 @@ public class MathUtil {
         //             cac tinh huong can phai test ta goi la test cases
         //ve li thuyet ta phai test het cac tinh huong...
         //ve thuc hanh: ki 5 se ro SWT301
-        System.out.println("6!: 720 , actual: " + MathUtility.getFractiorial(6));
-        System.out.println("0!: 1 , atual: " + MathUtility.getFractiorial(0));
-        //tao ki vong may nem ve ngoai le , phai la ngoai le
+        System.out.println("6!: 720 , actual: " + MathUtility.getFractorial(6));
+        System.out.println("0!: 1 , atual: " + MathUtility.getFractorial(0));
+        //tao ki vong may nem ve ngoai le , phai la ngoai 
         //IllegalArgumentException neu to co tinh , ng xai ham
         //nay cua tao dua them so am , tham so >20
-        System.out.println("expected: IllegalArgumentException: " + MathUtility.getFractiorial(-5));
+        System.out.println("expected: IllegalArgumentException: " + MathUtility.getFractorial(-5));
         
         System.out.println("I want to see a RED or GREEN!!!");
     }
